@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	
+	<?php require 'common.php'; ?>
 	<h1> Biblioteca Publica ABD </h1>
 	<div id = "datos">
 	<ul> <h2>Datos básicos </h2>
@@ -25,8 +27,6 @@
 	<li> Cabina de ensayo de música</li>
 	</ul>
 	</div>
-	<div id = "barraIzq">
-		<?php require 'common.php'; ?>
-	</div>
+	
 </body>
 </html>
