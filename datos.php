@@ -1,18 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Biblio ABD</title>
+	<title>Pagina principal</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css"/>
-	<link rel="shortcut icon" type="image/x-icon" href="icono.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
-		<img class="pingu" src="pingu.png">
-		<img class= "logo" src="logo.png">
+		<img src="logo.png">
 	</header>
 	<div class = "content">
-		<div class = "menu">
+	<div class = "menu">
 			<nav>
 				<ul>
 					<li><a href="index.php">Inicio</a></li>
@@ -24,8 +22,14 @@
 				</ul>
 		</nav>
 		</div>
-		<div class="calendar">
-			<img src="calendario.png">
+		<div class = "datos">
+		<ul> <h2>Datos básicos </h2>
+		<li> Direccion: calle Mayor, 555</li>
+		<li> Telefono: 91 777 22 43 </li>
+		<li> Email: biblioabd@biblio.es </li>
+		<li> <a href = "horarios.php"> Horarios </a></li>
+		<li> Como llegar: <b>Metro:</b> L6 L1 <b>Cercanias:</b> C3 C4 <b>Buses:</b> H 128</li>
+		</ul>
 		</div>
 	</div>
 	<footer>

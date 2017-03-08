@@ -1,15 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Biblio ABD</title>
+	<title>Pagina principal</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css"/>
-	<link rel="shortcut icon" type="image/x-icon" href="icono.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
-		<img class="pingu" src="pingu.png">
-		<img class= "logo" src="logo.png">
+		<img src="logo.png">
 	</header>
 	<div class = "content">
 		<div class = "menu">
@@ -24,8 +22,14 @@
 				</ul>
 		</nav>
 		</div>
-		<div class="calendar">
-			<img src="calendario.png">
+		<div class = "datos">
+			<ul> <h2>Instalaciones y servicios </h2>
+				<li> Internet</li>
+				<li> Libros para todas las edades </li>
+				<li> Salas de lectura y zona infantil</li>
+				<li> Sala con ordenadores</li>
+				<li> Cabina de ensayo de música</li>
+			</ul>
 		</div>
 	</div>
 	<footer>

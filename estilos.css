@@ -3,13 +3,74 @@ html body{
 	min-width: 850px;
 	margin: 0%;
     background-color: lightblue;
+    background-image: url("fondo.png");
 }
 
-h1{
-	color:white;
+header{
+	margin-top: 4%;
+	margin-left: 5%;
+}
+img.pingu{
+	width: 10%;
+	height: 10%;
+}
+img.logo{
+	margin-left: 20%;
+}
+
+footer{
+	margin-top: 80%;
+	background-color: #404040;
+	color: white;
+	font-size: 16px;
+	height:80px;
 	text-align: center;
 }
-
+.menu{
+	width: 62%;
+	margin-left: 18%;
+}
+.menu ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #404040;
+	border: 1px solid black;
+	font-size: 18px;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	display: block;
+	padding: 12px 32px;
+	text-align: center;
+	border: 1px solid black;
+	color: #FFFFCC;
+}
+.menu li a.active{
+	background-color: #FFFFCC;
+	color: black;
+}
+.menu li a:hover:not(.active) {
+    background-color: #FFFFCC;
+    color: black;
+}
+.datos{
+	background-color: #FFFFCC;
+	max-width: 62%;
+	font-size: 20px;
+	margin-left: 18%;
+	margin-top: 2%;
+	opacity: 0.7;
+}
+.calendar img{
+	width: 60%;
+	margin-left: 19%;
+	height: 40%;
+	margin-top: 2%;
+}
 table, td{
 	border: 1px solid black;
 }
